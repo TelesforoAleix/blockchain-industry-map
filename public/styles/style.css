@@ -1,0 +1,179 @@
+/* FONTS AND TEXT*/
+
+        /* Element style */
+    h1{
+        font-family: "Share Tech Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    a{
+        font-family: "Fira Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: darkslategrey;
+    }
+
+    p{
+        font-family: "Fira Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 11pt;
+    }
+
+    /* <!-- <header> formatting --> */
+
+        
+
+        .search{
+            display: block;
+            justify-content: center;
+            position: static;
+            width: 100%;
+            background-color: white;
+        }
+
+        .title{
+            padding: 40px 30px 0px 30px;
+        }
+        
+        .menu{
+            justify-content: center;
+            gap: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        
+        }
+            .menu-link{
+                justify-content: space-between;
+            }
+
+    /* Top and bottom menu bar, border  */
+    .top-bar{
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        border-bottom: 1px solid black;
+        padding: 0px 25px;
+        height: 5vh;
+        align-items: center;
+    }
+
+
+    .bottom-bar{
+        display: grid;
+        position: fixed;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        border-top: 1px solid black;
+        padding: 0px 25px;
+        background-color: white;
+        height: 5vh;
+        grid-template-columns: 7fr 3fr;
+        
+    }
+            .right-footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .attributions{
+                display: flex;
+                align-items: center;
+                width: 70%;
+            }
+            .contributions{
+                width: 30%;
+            }
+            .about-responsive{
+                display: none;
+            }
+
+
+    /* MAIN BODY AS +1400px wide*/
+
+    main{
+        margin-bottom: 10vh;
+    }
+
+    .container{
+        display: grid;
+        margin: 50px;
+        gap: 20px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(200px, 300px);
+
+    }
+
+    .test{
+        background-color: aqua;
+        border: 1px solid black;
+    }
+
+    .crypto{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .events{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .associations{
+        grid-column: span 1;
+        grid-row: span 2;
+    } 
+    .use-case{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .investors{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .s1{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .s1{
+        grid-column: span 1;
+        grid-row: span 2;
+    }    
+    .s2{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .s3{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .s4{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .s5{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .s6{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    /* ALTRES, PER ORDENAR */
+    .border-text{
+        font-size: smaller;
+    
+        }
+        
+     
+        .page-title{
+            color: black;
+            font-size: 2.5rem;
+            text-decoration: none;
+        }
