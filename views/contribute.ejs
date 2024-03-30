@@ -1,0 +1,42 @@
+<%- include("partials/header.ejs") %>
+
+<main>
+<div class="container vertical">
+    <div class="middlepage-message">
+    <h1> Contribute to the blockchain industry </h1>
+    <p>Help us figure out who is building!</p>
+    </div>
+    <div class="form">
+    <form action="/" method="POST">
+        <p>
+        <label>Superhéroe favorito</label>
+        <input type="text" name="fName" placeholder="First name">
+        </p>
+        <p>
+        <label>Superhéroe favorito</label>
+        <input type="text" name="lName" placeholder="Last name">
+        </p>
+        <p>
+        <label>Superhéroe favorito</label>
+        <input list="superheroes" name="list" />
+        <datalist id="superheroes">
+        <option label="Iron Man" value="Iron Man"></option>
+        <option label="The Hulk" value="The Hulk"></option>
+        </datalist>
+        </p>
+        <p>
+        <label>Superhéroe favorito</label>
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        </p>
+        <p>
+        <input type="submit" value="Let's go!">
+        </p>
+
+      </form>
+    </div>
+</div>
+    
+</main>
+
+
+<%- include("partials/footer.ejs") %>

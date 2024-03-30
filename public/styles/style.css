@@ -61,6 +61,7 @@
         padding: 0px 25px;
         height: 5vh;
         align-items: center;
+        justify-content: space-between;
     }
 
 
@@ -69,7 +70,7 @@
         position: fixed;
         right: 0px;
         left: 0px;
-        bottom: 0px;
+        bottom: -1px;
         border-top: 1px solid black;
         padding: 0px 25px;
         background-color: white;
@@ -109,6 +110,15 @@
         grid-template-columns: repeat(6, 1fr);
         grid-auto-rows: minmax(200px, 300px);
 
+    }
+
+    .container.vertical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+        padding: 50px 0 0 0;
     }
 
     .test{
