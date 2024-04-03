@@ -24,6 +24,10 @@ app.get("/contribute", (req, res) => {
 res.render("contribute.ejs");
 });
 
+app.post("/contribute", (req, res) => {
+    res.render("contribute-thanks.ejs"); //Still to design and code!!!!
+    });
+
 // BACKGROUND FUNCTIONALITIES AND NOTIFICATIONS
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
